@@ -3,8 +3,8 @@ package redis
 import (
 	"fmt"
 	"github.com/smartwalle/dbr"
-	"go-project-template/user"
-	"go-project-template/user/service"
+	"github.com/HankWang95/go-project-template/user"
+	"github.com/HankWang95/go-project-template/user/service"
 )
 
 type userRepository struct {

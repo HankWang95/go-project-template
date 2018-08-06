@@ -5,10 +5,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/smartwalle/dbr"
 	"github.com/smartwalle/dbs"
-	"go-project-template/user/service"
-	"go-project-template/user/service/repository/mysql"
-	"go-project-template/user/service/repository/redis"
-	"go-project-template/user/transport/restful"
+	"github.com/HankWang95/go-project-template/user/service"
+	"github.com/HankWang95/go-project-template/user/service/repository/mysql"
+	"github.com/HankWang95/go-project-template/user/service/repository/redis"
+	"github.com/HankWang95/go-project-template/user/transport/restful"
 )
 
 func main() {
