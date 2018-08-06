@@ -2,7 +2,7 @@
 
 ### 包结构
 ----
->>>
+```
 └── user
     ├── cmd
     │   └── myapp
@@ -22,7 +22,7 @@
     │   └── restful
     │       └── user.go
     └── user.go
-
+```
 ---- 
 - L1：cmd、service、transport、user.user
     - cmd 提供了app入口、进行初始化
